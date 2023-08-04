@@ -13,33 +13,85 @@
 
 body {
     background-color: #201b2c;
-    color: white
+    color: white;
+    font-family: 'Kanit';
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+
 }
 
 /*CABEÇALHO*/
-.main-header {
-    background: #704fbe;
-
+.main-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
 }
 
 .main-header h1 {
     font-family: 'DW', sans-serif;
     font-weight: normal;
     font-size: 40pt;
-}
-
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 0;
+    text-shadow: 5px 5px 10px black;
 }
 
 .nav-bar ul li {
     display: inline;
+    text-shadow: 5px 5px 10px black;
+    
+}
+
+.nav-bar ul li a:hover {
+    background-color: #3d315a;
+    border-radius: 15px;
+}
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
     font-family: 'Kanit';
     font-weight: 400;
     font-size: 15pt;
+    padding: 30px;
 }
+/*FIM DO CABECALHO*/
+
+/*INTRODUÇÃO*/
+#about-show {
+    background-color: #3d315a;
+}
+
+.container h2 {
+    font-size: 30pt;
+}
+
+.container .introduction p {
+    font-size: 18pt;
+}
+
+.container .introduction {
+    padding: 50px;
+    margin-bottom: 50px;
+    font-family: 'Kanit';
+    text-shadow: 2px 2px 5px black;
+}
+
+.introduction h2 {
+    margin-bottom: 8px;
+}
+
+.introduction p {
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+.introduction span {
+    color: #80f0e1;
+}
+
+/*FIM DA INTRODUCAO*/
+
