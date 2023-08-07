@@ -23,7 +23,6 @@ body {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-
 }
 
 /*CABEÇALHO*/
@@ -66,14 +65,13 @@ body {
     padding: 30px;
     
 }
-/*FIM DO CABECALHO*/
+/*FIM DO CABEÇALHO*/
 
 /*INTRODUÇÃO*/
 #about-show {
     background-color: #3d315a;
 }
 
-/*Válido para todos os H2s*/
 .container h2 {
     font-size: 30pt;
     margin: 0 30px 0 0;
@@ -82,7 +80,7 @@ body {
     letter-spacing: 2px;
     text-align: center;
     text-shadow: 3px 3px 3px black;
-}
+} /*Válido para todos os H2s*/
 
 .container .introduction p {
     font-size: 18pt;
@@ -107,7 +105,7 @@ body {
 .introduction span {
     color: #80f0e1;
 }
-/*FIM DA INTRODUCAO*/
+/*FIM DA INTRODUÇÃO*/
 
 /*ARTIGOS*/
 .container header h2 {
@@ -182,8 +180,6 @@ article:hover {
     font-weight: normal;
     letter-spacing: 2px;
     text-align: center;
-    
-    /*-------------------------------------------------------------------------------------------*/
 }
 
 /*FIM DOS EFEITOS*/
@@ -208,6 +204,7 @@ article:hover .arrow{
     color: black;
 }
 /*FIM DA FLECHA*/
+
 /*FIM DOS ARTIGOS*/
 
 /*OPINIÃO E FORMULÁRIO*/
@@ -240,7 +237,7 @@ article:hover .arrow{
     letter-spacing: 2px;
     text-align: center;
     text-shadow: 3px 3px 3px black;
-} /*AJEITAR ESSES H3S*/
+}
 
 form input, textarea {
     margin-bottom: 15px;
@@ -343,7 +340,8 @@ h4 {
     text-shadow: 0px 10px 40px #00c3ffce;
 
 }
-/*EFEITO DE CLICLAR*/
+
+/*EFEITO DE CLICAR*/
 .yes, .no, .y span, .n a {
     display: none;
 }
@@ -363,14 +361,7 @@ h4::after {
     transform: rotate(135deg) scale(1.5);
 
 }
-
-h4::before {
-    content:url();
-} /*Editar isso melhor depois*/
-
-/*FIM DO EFEITO DE CLILAR*/
-/*GIF DA TARDIS*/
-
+/*FIM DO EFEITO DE CLICAR*/
 
 /*RODAPÉ*/
 footer {
@@ -378,5 +369,3 @@ footer {
     padding: 15px 0;
     margin-top: 10px;
 }
-
-/*AO TERMINAR, VER A RESPONSIVIDADE COM OS MX-WIDTH*/
