@@ -26,6 +26,14 @@ body {
 }
 
 /*CABEÇALHO*/
+.main-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #201b2c;
+    z-index: 1;
+}
+
 .main-header .container {
     display: flex;
     align-items: center;
@@ -108,7 +116,7 @@ body {
 
 /*ARTIGOS*/
 .container header h2 {
-    padding: 50px 0;
+    padding: 142px 0 50px 0;
 }
 
 .container .articles {
@@ -208,7 +216,7 @@ article:hover .arrow{
 
 /*OPINIÃO E FORMULÁRIO*/
 #opinion .container h2 {
-    padding: 50px 0 0 0;
+    padding: 142px 0 0 0;
     width: 100%;
 }
 
@@ -427,6 +435,10 @@ footer {
 @media screen and (min-width: 641px) and (max-width: 1023px) {
     .container {
         max-width: 90%;
+    }
+
+    .main-header {
+        position: static;
     }
 
     .container .articles {
